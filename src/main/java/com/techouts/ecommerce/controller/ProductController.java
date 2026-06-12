@@ -38,7 +38,7 @@ public class ProductController {
 
     }
 
-    // @PostConstruct
+     @PostConstruct
     public void loadProductsToDB() {
         List<Product> products = new ArrayList<>(List.of(
 
